@@ -20,7 +20,7 @@
 - I've hosted this image on [Docker Hub](https://hub.docker.com/r/pareshpawar/simple-http-server) or you can build it yourself if you want to.
 
   ```bash
-  sudo docker run -p 8081:8081 pareshpawar/simple-http-server
+  docker run --rm -p 8081:8081 pareshpawar/simple-http-server
   ```
 
 - Optionally, forward port via your proxy or load balancer.
